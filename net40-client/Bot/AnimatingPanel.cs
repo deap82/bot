@@ -75,6 +75,7 @@ namespace PixelLab.Wpf
             //set the location attached DP
             data.Target = bounds.Location;
 
+
             child.Arrange(bounds);
         }
 

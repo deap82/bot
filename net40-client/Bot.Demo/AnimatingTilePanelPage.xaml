@@ -108,7 +108,7 @@
       lib:AnimatingTilePanel.ItemWidth="{Binding ElementName=_sliderSize, Path=Value}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <lib:AnimatingTilePanel/>
+                    <lib:AnimatingTilePanel Orientation="Vertical" />
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
         </ItemsControl>
